@@ -1,0 +1,38 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(50deg,rgb(211, 192, 192) ,rgb(169, 169, 246));
+  }
+  h1{
+    text-align: center;
+    color: blue;
+  }
+  span{
+    color: red;
+    font-size: 45px;
+  }
+
+  #output {
+    width: 80%;
+    max-width: 600px;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #523232;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #ccc;
+
+  }
+
+  #startButton {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
